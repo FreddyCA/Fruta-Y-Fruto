@@ -1,0 +1,16 @@
+.quienes {
+    text-align: center;
+}
+
+@media screen and (min-width: 0) {
+    .quienes {
+        margin: 0;
+        padding: 2rem;
+    }
+}
+
+@media screen and (min-width: 768PX) {
+    .quienes {
+        padding: 5rem auto;
+    }
+}

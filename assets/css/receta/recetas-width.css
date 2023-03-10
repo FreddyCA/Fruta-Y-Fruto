@@ -1,0 +1,22 @@
+.recetas__width {
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 5rem 0 0;
+    gap: 7rem;
+    row-gap: inherit;
+}
+
+@media screen and (min-width: 0px) {
+    .recetas__width {
+        width: 100%;
+        padding: 0;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .recetas__width {
+        max-width: 1280px;
+    }
+}
